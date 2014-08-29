@@ -1,0 +1,11 @@
+{
+  "name": "leport-settings",
+  "version": "0.0.1",
+  "description": "Leport settings",
+  "main": "index.js",
+  "author": "idy0013@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "sails-mongo": "^0.10.4"
+  }
+}
