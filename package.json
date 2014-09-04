@@ -6,6 +6,5 @@
   "author": "idy0013@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "sails-mongo": "^0.10.4"
   }
 }
