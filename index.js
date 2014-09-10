@@ -14,22 +14,15 @@ var settings = module.exports = {
   session_secret: 'QysQcRcr',
   session_store: 'connect-mongo',
   session_store_settings: {
-    url: 'mongodb://localhost:27017/leport-session'
+    url: 'mongodb://localhost:27017/leport'
   },
   client_id: 'leport',
   client_secret: '2zBR8KSn',
-  waterline_settings: {
-    adapters: {
-      mongo: require('sails-mongo')
-    },
-    connections: {
-      mongo: {
-        adapter: 'mongo',
-        url: 'mongodb://localhost:27017/leport-waterline'
-      }
-    }
-  },
-  
+
+  mongo: {
+    url: 'mongodb://localhost:27017/leport'
+  }
+
 };
 
 settings.root_url = 'http://' + settings.hostname;
